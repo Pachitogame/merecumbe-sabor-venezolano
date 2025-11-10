@@ -1,6 +1,7 @@
 import { MapPin, Phone, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-restaurant.jpg";
+// RUTA CORREGIDA: Ahora busca la imagen directamente en la carpeta 'public'
+const heroImage = "/hero-restaurant.jpg"; 
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
